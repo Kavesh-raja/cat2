@@ -8,8 +8,8 @@ public class katsubha {
         int half = (n+1)/2;
         long a = x / (long) (Math.pow(10,half));
         long b = x % (long) (Math.pow(10,half));
-        long c = x / (long) (Math.pow(10,half));
-        long d = x % (long) (Math.pow(10,half));
+        long c = y / (long) (Math.pow(10,half));
+        long d = y % (long) (Math.pow(10,half));
 
         long ac = kart(a,c);
         long bd = kart(b,d);
